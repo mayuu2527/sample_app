@@ -1,4 +1,6 @@
 class StaticPagesController < ApplicationController
+  
+  # ホームアクションメソッド
   def home
   end
 
@@ -8,5 +10,9 @@ class StaticPagesController < ApplicationController
 
   def help
   	
+  end
+
+  def contact
+  
   end
 end
